@@ -1,0 +1,234 @@
+[
+    {
+        "student_id": "123456",
+        "name": "Alice Data",
+        "course": "Data Science",
+        "year": 3,
+        "semester": 1,
+        "completed": ["MATH101", "MATH102", "MATH103", "MATH201", "CS101", "CS102", "STAT102", "DS103", "DS104", "DS201"]
+    },
+    {
+        "student_id": "234567",
+        "name": "Bob Linguistics",
+        "course": "Linguistics",
+        "year": 2,
+        "semester": 2,
+        "completed": ["LING104", "LING105", "LING201", "CS101", "ENG101", "ENG102"]
+    },
+    {
+        "student_id": "345678",
+        "name": "Charlie Micro",
+        "course": "Microbiology",
+        "year": 3,
+        "semester": 2,
+        "completed": ["BIO101", "BIO102", "CHEM101", "CHEM102", "MIC105", "MIC106", "MIC201"]
+    },
+    {
+        "student_id": "456789",
+        "name": "Dana Electric",
+        "course": "Electric Engineering",
+        "year": 3,
+        "semester": 1,
+        "completed": ["MATH101", "MATH102", "MATH103", "PHYS101", "PHYS102", "EE106", "EE107", "EE108", "EE201", "CS101"]
+    },
+    {
+        "student_id": "567890",
+        "name": "Evan Physiology",
+        "course": "Physiology",
+        "year": 2,
+        "semester": 1,
+        "completed": ["BIO101", "CHEM101", "PHYSI101", "PHYSI201"]
+    },
+    {
+        "student_id": "678901",
+        "name": "Fiona Maths",
+        "course": "Mathematics",
+        "year": 4,
+        "semester": 1,
+        "completed": ["MATH101", "MATH102", "MATH103", "MATH201", "MATH301", "STAT102", "STAT201", "CS101", "CS102"]
+    },
+    {
+        "student_id": "789012",
+        "name": "Greg CS",
+        "course": "Computer Science",
+        "year": 3,
+        "semester": 2,
+        "completed": ["MATH101", "MATH103", "MATH201", "CS101", "CS102", "CS103", "CS104", "CS105", "CS201", "CS202", "CS203", "CS204"]
+    },
+    {
+        "student_id": "890123",
+        "name": "Hannah English",
+        "course": "English",
+        "year": 2,
+        "semester": 1,
+        "completed": ["ENG101", "ENG102", "ENG201", "HIST101"]
+    },
+    {
+        "student_id": "901234",
+        "name": "Ian History",
+        "course": "History",
+        "year": 3,
+        "semester": 1,
+        "completed": ["HIST101", "HIST102", "HIST201", "ENG101", "PHIL101", "SOC101"]
+    },
+    {
+        "student_id": "012345",
+        "name": "Jack Economics",
+        "course": "Economics",
+        "year": 4,
+        "semester": 1,
+        "completed": ["ECON101", "ECON102", "ECON103", "ECON201", "ECON301", "MATH101", "MATH201", "STAT102", "BUS101"]
+    },
+    {
+        "student_id": "112233",
+        "name": "Kelly Business",
+        "course": "Business",
+        "year": 3,
+        "semester": 2,
+        "completed": ["BUS101", "BUS102", "BUS103", "BUS201", "BUS301", "ECON101", "ECON103", "STAT102", "ENG101"]
+    },
+    {
+        "student_id": "223344",
+        "name": "Laura Philosophy",
+        "course": "Philosophy",
+        "year": 2,
+        "semester": 1,
+        "completed": ["PHIL101", "PHIL102", "HIST101", "HIST201", "PHIL201"]
+    },
+    {
+        "student_id": "334455",
+        "name": "Mike Sociology",
+        "course": "Sociology",
+        "year": 3,
+        "semester": 1,
+        "completed": ["SOC101", "SOC102", "SOC201", "PSY101", "DS103", "CS101", "STAT102"]
+    },
+    {
+        "student_id": "445566",
+        "name": "Nina Art",
+        "course": "Art",
+        "year": 2,
+        "semester": 2,
+        "completed": ["ART101", "ART102", "ART201", "CS101", "HIST101"]
+    },
+    {
+        "student_id": "556677",
+        "name": "Oliver Biology",
+        "course": "Biology",
+        "year": 4,
+        "semester": 1,
+        "completed": ["BIO101", "BIO102", "BIO201", "BIO301", "CHEM101", "CHEM102", "CHEM201", "CS101", "CS102"]
+    },
+    {
+        "student_id": "667788",
+        "name": "Pam Chemistry",
+        "course": "Chemistry",
+        "year": 3,
+        "semester": 2,
+        "completed": ["CHEM101", "CHEM102", "CHEM201", "BIO101", "BIO102", "MATH101", "MATH102", "PHYS101"]
+    },
+    {
+        "student_id": "778899",
+        "name": "Quentin Psychology",
+        "course": "Psychology",
+        "year": 3,
+        "semester": 1,
+        "completed": ["PSY101", "PSY102", "PSY201", "BIO101", "PHYSI101", "SOC101", "MATH101"]
+    },
+    {
+        "student_id": "889900",
+        "name": "Rachel Law",
+        "course": "Law",
+        "year": 4,
+        "semester": 1,
+        "completed": ["LAW101", "LAW102", "LAW201", "LAW301", "CS101", "BUS101", "PHIL101", "PHIL102"]
+    },
+    {
+        "student_id": "990011",
+        "name": "Sam Medicine",
+        "course": "Medicine",
+        "year": 3,
+        "semester": 2,
+        "completed": ["BIO101", "BIO102", "CHEM101", "CHEM102", "PHYSI101", "MED101", "MED102", "MED201", "PHIL102"]
+    },
+    {
+        "student_id": "101112",
+        "name": "Tina Nursing",
+        "course": "Nursing",
+        "year": 2,
+        "semester": 2,
+        "completed": ["NURS101", "NURS102", "BIO101", "PHYSI101", "CHEM101", "PSY101"]
+    },
+    {
+        "student_id": "121314",
+        "name": "Victor DataViz",
+        "course": "Data Science",
+        "year": 4,
+        "semester": 2,
+        "completed": ["MATH101", "MATH102", "MATH103", "MATH201", "MATH301", "CS101", "CS102", "CS103", "CS105", "STAT102", "STAT201", "STAT301", "DS103", "DS104", "DS201", "DS301", "DS302"]
+    },
+    {
+        "student_id": "131415",
+        "name": "Wendy CompBio",
+        "course": "Biology",
+        "year": 3,
+        "semester": 1,
+        "completed": ["BIO101", "BIO102", "BIO201", "CHEM101", "CHEM102", "CS101", "CS102", "MATH101", "MATH103", "DS103"]
+    },
+    {
+        "student_id": "141516",
+        "name": "Xavier AI",
+        "course": "Computer Science",
+        "year": 4,
+        "semester": 1,
+        "completed": ["MATH101", "MATH102", "MATH103", "MATH201", "CS101", "CS102", "CS103", "CS104", "CS105", "CS201", "CS204", "CS301", "STAT102", "DS103", "DS201"]
+    },
+    {
+        "student_id": "151617",
+        "name": "Yasmin EthiTech",
+        "course": "Philosophy",
+        "year": 3,
+        "semester": 2,
+        "completed": ["PHIL101", "PHIL102", "PHIL201", "PHIL301", "CS101", "CS102", "HIST101", "HIST201"]
+    },
+    {
+        "student_id": "161718",
+        "name": "Zach NeuroSci",
+        "course": "Psychology",
+        "year": 4,
+        "semester": 1,
+        "completed": ["PSY101", "PSY102", "PSY201", "PSY301", "BIO101", "BIO102", "CS101", "CS102", "MATH101", "MATH103", "PHYSI101"]
+    },
+    {
+        "student_id": "171819",
+        "name": "Amy Freshman",
+        "course": "Computer Science",
+        "year": 1,
+        "semester": 1,
+        "completed": ["MATH101", "CS101"]
+    },
+    {
+        "student_id": "181920",
+        "name": "Ben Freshman",
+        "course": "Data Science",
+        "year": 1,
+        "semester": 1,
+        "completed": ["MATH101", "CS101"]
+    },
+    {
+        "student_id": "192021",
+        "name": "Cathy Freshman",
+        "course": "Biology",
+        "year": 1,
+        "semester": 1,
+        "completed": ["BIO101", "CHEM101"]
+    },
+    {
+        "student_id": "202122",
+        "name": "David Almost",
+        "course": "Computer Science",
+        "year": 4,
+        "semester": 2,
+        "completed": ["MATH101", "MATH103", "MATH201", "CS101", "CS102", "CS103", "CS104", "CS105", "CS201", "CS202", "CS203", "CS204", "CS301", "CS302", "CS303"]
+    }
+]

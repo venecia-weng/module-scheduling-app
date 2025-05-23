@@ -1,0 +1,653 @@
+[
+  {
+    "code": "MATH101",
+    "name": "Mathematics Foundations",
+    "tracks": ["Data Science", "Electric Engineering", "Mathematics", "Computer Science"],
+    "prerequisites": [],
+    "credits": 4
+  },
+  {
+    "code": "MATH201",
+    "name": "Intermediate Mathematics",
+    "tracks": ["Mathematics", "Computer Science", "Data Science"],
+    "prerequisites": ["MATH101"],
+    "credits": 4
+  },
+  {
+    "code": "MATH301",
+    "name": "Advanced Mathematical Analysis",
+    "tracks": ["Mathematics", "Data Science"],
+    "prerequisites": ["MATH201", "MATH102"],
+    "credits": 4
+  },
+  {
+    "code": "MATH401",
+    "name": "Complex Analysis & Applications",
+    "tracks": ["Mathematics"],
+    "prerequisites": ["MATH301", "MATH103"],
+    "credits": 5
+  },
+  {
+    "code": "STAT102",
+    "name": "Statistics for Data Science",
+    "tracks": ["Data Science", "Mathematics", "Economics"],
+    "prerequisites": ["MATH101"],
+    "credits": 3
+  },
+  {
+    "code": "STAT201",
+    "name": "Probability Theory",
+    "tracks": ["Data Science", "Mathematics", "Economics"],
+    "prerequisites": ["STAT102", "MATH201"],
+    "credits": 4
+  },
+  {
+    "code": "STAT301",
+    "name": "Advanced Statistical Methods",
+    "tracks": ["Data Science", "Mathematics"],
+    "prerequisites": ["STAT201"],
+    "credits": 4
+  },
+  {
+    "code": "DS103",
+    "name": "Data Science Fundamentals",
+    "tracks": ["Data Science", "Computer Science"],
+    "prerequisites": ["STAT102", "CS101"],
+    "credits": 4
+  },
+  {
+    "code": "DS104",
+    "name": "Advanced Data Science",
+    "tracks": ["Data Science"],
+    "prerequisites": ["DS103", "STAT201"],
+    "credits": 4
+  },
+  {
+    "code": "DS201",
+    "name": "Machine Learning Basics",
+    "tracks": ["Data Science", "Computer Science"],
+    "prerequisites": ["DS104", "MATH201"],
+    "credits": 4
+  },
+  {
+    "code": "DS301",
+    "name": "Deep Learning",
+    "tracks": ["Data Science"],
+    "prerequisites": ["DS201", "MATH301"],
+    "credits": 5
+  },
+  {
+    "code": "DS401",
+    "name": "Data Science Capstone",
+    "tracks": ["Data Science"],
+    "prerequisites": ["DS301", "DS302"],
+    "credits": 6
+  },
+  {
+    "code": "DS302",
+    "name": "Big Data Systems",
+    "tracks": ["Data Science", "Computer Science"],
+    "prerequisites": ["DS201", "CS105"],
+    "credits": 4
+  },
+  {
+    "code": "LING104",
+    "name": "Linguistics Basics",
+    "tracks": ["Linguistics"],
+    "prerequisites": [],
+    "credits": 3
+  },
+  {
+    "code": "LING105",
+    "name": "Phonetics and Phonology",
+    "tracks": ["Linguistics"],
+    "prerequisites": ["LING104"],
+    "credits": 3
+  },
+  {
+    "code": "LING201",
+    "name": "Syntax and Grammar",
+    "tracks": ["Linguistics"],
+    "prerequisites": ["LING105"],
+    "credits": 4
+  },
+  {
+    "code": "LING301",
+    "name": "Computational Linguistics",
+    "tracks": ["Linguistics", "Computer Science", "Data Science"],
+    "prerequisites": ["LING201", "CS101"],
+    "credits": 4
+  },
+  {
+    "code": "MIC105",
+    "name": "Microbiology Basics",
+    "tracks": ["Microbiology", "Biology"],
+    "prerequisites": ["BIO101"],
+    "credits": 3
+  },
+  {
+    "code": "MIC106",
+    "name": "Microbial Genetics",
+    "tracks": ["Microbiology", "Biology"],
+    "prerequisites": ["MIC105", "BIO102"],
+    "credits": 4
+  },
+  {
+    "code": "MIC201",
+    "name": "Advanced Microbiology",
+    "tracks": ["Microbiology"],
+    "prerequisites": ["MIC106", "CHEM102"],
+    "credits": 4
+  },
+  {
+    "code": "MATH102",
+    "name": "Advanced Calculus",
+    "tracks": ["Mathematics", "Data Science", "Electric Engineering", "Physics"],
+    "prerequisites": ["MATH101"],
+    "credits": 4
+  },
+  {
+    "code": "MATH103",
+    "name": "Linear Algebra",
+    "tracks": ["Mathematics", "Data Science", "Electric Engineering", "Computer Science"],
+    "prerequisites": ["MATH101"],
+    "credits": 4
+  },
+  {
+    "code": "CS101",
+    "name": "Introduction to Computer Science",
+    "tracks": ["Computer Science", "Data Science"],
+    "prerequisites": [],
+    "credits": 3
+  },
+  {
+    "code": "CS102",
+    "name": "Data Structures",
+    "tracks": ["Computer Science", "Data Science"],
+    "prerequisites": ["CS101", "MATH101"],
+    "credits": 4
+  },
+  {
+    "code": "CS103",
+    "name": "Algorithms",
+    "tracks": ["Computer Science", "Data Science"],
+    "prerequisites": ["CS102", "MATH103"],
+    "credits": 4
+  },
+  {
+    "code": "CS104",
+    "name": "Operating Systems",
+    "tracks": ["Computer Science"],
+    "prerequisites": ["CS102"],
+    "credits": 3
+  },
+  {
+    "code": "CS105",
+    "name": "Database Systems",
+    "tracks": ["Computer Science", "Data Science"],
+    "prerequisites": ["CS102"],
+    "credits": 3
+  },
+  {
+    "code": "CS201",
+    "name": "Intermediate Computer Science",
+    "tracks": ["Computer Science"],
+    "prerequisites": ["MATH201", "CS103"],
+    "credits": 4
+  },
+  {
+    "code": "CS301",
+    "name": "Advanced Computer Science",
+    "tracks": ["Computer Science"],
+    "prerequisites": ["CS201"],
+    "credits": 4
+  },
+  {
+    "code": "CS202",
+    "name": "Software Engineering",
+    "tracks": ["Computer Science"],
+    "prerequisites": ["CS102", "CS105"],
+    "credits": 4
+  },
+  {
+    "code": "CS203",
+    "name": "Computer Networks",
+    "tracks": ["Computer Science", "Electric Engineering"],
+    "prerequisites": ["CS104", "EE106"],
+    "credits": 3
+  },
+  {
+    "code": "CS204",
+    "name": "Artificial Intelligence",
+    "tracks": ["Computer Science", "Data Science"],
+    "prerequisites": ["CS103", "STAT102"],
+    "credits": 4
+  },
+  {
+    "code": "CS302",
+    "name": "Computer Graphics",
+    "tracks": ["Computer Science", "Art"],
+    "prerequisites": ["CS201", "MATH103"],
+    "credits": 4
+  },
+  {
+    "code": "CS303",
+    "name": "Cybersecurity",
+    "tracks": ["Computer Science"],
+    "prerequisites": ["CS203", "CS104"],
+    "credits": 4
+  },
+  {
+    "code": "CS401",
+    "name": "Computer Science Capstone",
+    "tracks": ["Computer Science"],
+    "prerequisites": ["CS301", "CS303", "CS302"],
+    "credits": 6
+  },
+  {
+    "code": "EE106",
+    "name": "Circuits and Systems",
+    "tracks": ["Electric Engineering"],
+    "prerequisites": ["MATH101", "PHYS101"],
+    "credits": 4
+  },
+  {
+    "code": "EE107",
+    "name": "Advanced Electric Engineering",
+    "tracks": ["Electric Engineering"],
+    "prerequisites": ["EE106", "MATH102"],
+    "credits": 4
+  },
+  {
+    "code": "EE108",
+    "name": "Digital Signal Processing",
+    "tracks": ["Electric Engineering", "Computer Science"],
+    "prerequisites": ["EE107", "MATH103"],
+    "credits": 4
+  },
+  {
+    "code": "EE201",
+    "name": "Electronic Design",
+    "tracks": ["Electric Engineering"],
+    "prerequisites": ["EE107"],
+    "credits": 4
+  },
+  {
+    "code": "EE301",
+    "name": "Embedded Systems",
+    "tracks": ["Electric Engineering", "Computer Science"],
+    "prerequisites": ["EE201", "CS104"],
+    "credits": 5
+  },
+  {
+    "code": "PHYS101",
+    "name": "Physics I: Mechanics",
+    "tracks": ["Physics", "Electric Engineering"],
+    "prerequisites": ["MATH101"],
+    "credits": 4
+  },
+  {
+    "code": "PHYS102",
+    "name": "Physics II: Electromagnetism",
+    "tracks": ["Physics", "Electric Engineering"],
+    "prerequisites": ["PHYS101", "MATH102"],
+    "credits": 4
+  },
+  {
+    "code": "PHYSI101",
+    "name": "Fundamentals of Physiology",
+    "tracks": ["Physiology", "Biology", "Medicine"],
+    "prerequisites": ["BIO101"],
+    "credits": 3
+  },
+  {
+    "code": "PHYSI201",
+    "name": "Advanced Physiology",
+    "tracks": ["Physiology", "Medicine"],
+    "prerequisites": ["PHYSI101", "CHEM101"],
+    "credits": 4
+  },
+  {
+    "code": "PHYSI301",
+    "name": "Neurophysiology",
+    "tracks": ["Physiology", "Medicine", "Psychology"],
+    "prerequisites": ["PHYSI201", "PSY101"],
+    "credits": 4
+  },
+  {
+    "code": "ENG101",
+    "name": "English Literature",
+    "tracks": ["English"],
+    "prerequisites": [],
+    "credits": 2
+  },
+  {
+    "code": "ENG102",
+    "name": "Modern Poetry",
+    "tracks": ["English"],
+    "prerequisites": ["ENG101"],
+    "credits": 2
+  },
+  {
+    "code": "ENG201",
+    "name": "Technical Writing",
+    "tracks": ["English", "Computer Science", "Engineering"],
+    "prerequisites": ["ENG101"],
+    "credits": 3
+  },
+  {
+    "code": "HIST101",
+    "name": "World History",
+    "tracks": ["History"],
+    "prerequisites": [],
+    "credits": 3
+  },
+  {
+    "code": "HIST102",
+    "name": "Contemporary History",
+    "tracks": ["History"],
+    "prerequisites": ["HIST101"],
+    "credits": 3
+  },
+  {
+    "code": "HIST201",
+    "name": "History of Science",
+    "tracks": ["History", "Science"],
+    "prerequisites": ["HIST101"],
+    "credits": 3
+  },
+  {
+    "code": "ECON101",
+    "name": "Principles of Economics",
+    "tracks": ["Economics", "Business"],
+    "prerequisites": [],
+    "credits": 3
+  },
+  {
+    "code": "ECON102",
+    "name": "Macroeconomics",
+    "tracks": ["Economics"],
+    "prerequisites": ["ECON101", "MATH101"],
+    "credits": 3
+  },
+  {
+    "code": "ECON103",
+    "name": "Microeconomics",
+    "tracks": ["Economics", "Business"],
+    "prerequisites": ["ECON101"],
+    "credits": 3
+  },
+  {
+    "code": "ECON201",
+    "name": "Econometrics",
+    "tracks": ["Economics", "Data Science"],
+    "prerequisites": ["ECON102", "ECON103", "STAT102"],
+    "credits": 4
+  },
+  {
+    "code": "ECON301",
+    "name": "Advanced Economics Analysis",
+    "tracks": ["Economics"],
+    "prerequisites": ["ECON201", "MATH201"],
+    "credits": 4
+  },
+  {
+    "code": "BUS101",
+    "name": "Introduction to Business",
+    "tracks": ["Business"],
+    "prerequisites": [],
+    "credits": 3
+  },
+  {
+    "code": "BUS102",
+    "name": "Business Communication",
+    "tracks": ["Business"],
+    "prerequisites": ["BUS101", "ENG101"],
+    "credits": 2
+  },
+  {
+    "code": "BUS103",
+    "name": "Marketing Fundamentals",
+    "tracks": ["Business"],
+    "prerequisites": ["BUS101"],
+    "credits": 3
+  },
+  {
+    "code": "BUS201",
+    "name": "Business Analytics",
+    "tracks": ["Business", "Data Science"],
+    "prerequisites": ["BUS101", "STAT102"],
+    "credits": 4
+  },
+  {
+    "code": "BUS301",
+    "name": "Strategic Management",
+    "tracks": ["Business"],
+    "prerequisites": ["BUS201", "ECON103"],
+    "credits": 4
+  },
+  {
+    "code": "PHIL101",
+    "name": "Introduction to Philosophy",
+    "tracks": ["Philosophy"],
+    "prerequisites": [],
+    "credits": 2
+  },
+  {
+    "code": "PHIL102",
+    "name": "Ethics",
+    "tracks": ["Philosophy", "Medicine", "Law"],
+    "prerequisites": ["PHIL101"],
+    "credits": 2
+  },
+  {
+    "code": "PHIL201",
+    "name": "Philosophy of Science",
+    "tracks": ["Philosophy", "Science"],
+    "prerequisites": ["PHIL101", "HIST201"],
+    "credits": 3
+  },
+  {
+    "code": "PHIL301",
+    "name": "Ethics in Technology",
+    "tracks": ["Philosophy", "Computer Science"],
+    "prerequisites": ["PHIL102", "CS101"],
+    "credits": 3
+  },
+  {
+    "code": "SOC101",
+    "name": "Sociology Basics",
+    "tracks": ["Sociology"],
+    "prerequisites": [],
+    "credits": 3
+  },
+  {
+    "code": "SOC102",
+    "name": "Social Theory",
+    "tracks": ["Sociology"],
+    "prerequisites": ["SOC101"],
+    "credits": 3
+  },
+  {
+    "code": "SOC201",
+    "name": "Computational Social Science",
+    "tracks": ["Sociology", "Data Science"],
+    "prerequisites": ["SOC102", "DS103"],
+    "credits": 4
+  },
+  {
+    "code": "ART101",
+    "name": "Art History",
+    "tracks": ["Art"],
+    "prerequisites": [],
+    "credits": 2
+  },
+  {
+    "code": "ART102",
+    "name": "Contemporary Art",
+    "tracks": ["Art"],
+    "prerequisites": ["ART101"],
+    "credits": 2
+  },
+  {
+    "code": "ART201",
+    "name": "Digital Design",
+    "tracks": ["Art", "Computer Science"],
+    "prerequisites": ["ART102", "CS101"],
+    "credits": 3
+  },
+  {
+    "code": "BIO101",
+    "name": "General Biology",
+    "tracks": ["Biology", "Medicine", "Microbiology"],
+    "prerequisites": [],
+    "credits": 3
+  },
+  {
+    "code": "BIO102",
+    "name": "Genetics",
+    "tracks": ["Biology", "Microbiology"],
+    "prerequisites": ["BIO101", "CHEM101"],
+    "credits": 4
+  },
+  {
+    "code": "BIO201",
+    "name": "Molecular Biology",
+    "tracks": ["Biology", "Medicine"],
+    "prerequisites": ["BIO102", "CHEM102"],
+    "credits": 4
+  },
+  {
+    "code": "BIO301",
+    "name": "Bioinformatics",
+    "tracks": ["Biology", "Data Science", "Computer Science"],
+    "prerequisites": ["BIO201", "CS102"],
+    "credits": 4
+  },
+  {
+    "code": "CHEM101",
+    "name": "General Chemistry",
+    "tracks": ["Chemistry", "Biology", "Medicine"],
+    "prerequisites": [],
+    "credits": 4
+  },
+  {
+    "code": "CHEM102",
+    "name": "Organic Chemistry",
+    "tracks": ["Chemistry", "Biology"],
+    "prerequisites": ["CHEM101"],
+    "credits": 4
+  },
+  {
+    "code": "CHEM201",
+    "name": "Biochemistry",
+    "tracks": ["Chemistry", "Biology", "Medicine"],
+    "prerequisites": ["CHEM102", "BIO102"],
+    "credits": 4
+  },
+  {
+    "code": "PSY101",
+    "name": "Introduction to Psychology",
+    "tracks": ["Psychology"],
+    "prerequisites": [],
+    "credits": 3
+  },
+  {
+    "code": "PSY102",
+    "name": "Cognitive Psychology",
+    "tracks": ["Psychology", "Neuroscience"],
+    "prerequisites": ["PSY101"],
+    "credits": 3
+  },
+  {
+    "code": "PSY201",
+    "name": "Neuroscience Fundamentals",
+    "tracks": ["Psychology", "Medicine", "Biology"],
+    "prerequisites": ["PSY102", "BIO101"],
+    "credits": 4
+  },
+  {
+    "code": "PSY301",
+    "name": "Computational Neuroscience",
+    "tracks": ["Psychology", "Data Science", "Computer Science"],
+    "prerequisites": ["PSY201", "CS102", "MATH103"],
+    "credits": 5
+  },
+  {
+    "code": "LAW101",
+    "name": "Introduction to Law",
+    "tracks": ["Law"],
+    "prerequisites": [],
+    "credits": 3
+  },
+  {
+    "code": "LAW102",
+    "name": "Criminal Law",
+    "tracks": ["Law"],
+    "prerequisites": ["LAW101"],
+    "credits": 4
+  },
+  {
+    "code": "LAW201",
+    "name": "Intellectual Property Law",
+    "tracks": ["Law", "Computer Science", "Business"],
+    "prerequisites": ["LAW102"],
+    "credits": 3
+  },
+  {
+    "code": "LAW301",
+    "name": "Technology Law",
+    "tracks": ["Law", "Computer Science"],
+    "prerequisites": ["LAW201", "CS101"],
+    "credits": 4
+  },
+  {
+    "code": "MED101",
+    "name": "Introduction to Medicine",
+    "tracks": ["Medicine"],
+    "prerequisites": ["BIO101"],
+    "credits": 3
+  },
+  {
+    "code": "MED102",
+    "name": "Human Anatomy",
+    "tracks": ["Medicine"],
+    "prerequisites": ["MED101", "PHYSI101"],
+    "credits": 4
+  },
+  {
+    "code": "MED201",
+    "name": "Clinical Medicine",
+    "tracks": ["Medicine"],
+    "prerequisites": ["MED102", "CHEM201"],
+    "credits": 5
+  },
+  {
+    "code": "MED301",
+    "name": "Medical Informatics",
+    "tracks": ["Medicine", "Data Science", "Computer Science"],
+    "prerequisites": ["MED201", "CS105"],
+    "credits": 4
+  },
+  {
+    "code": "NURS101",
+    "name": "Nursing Basics",
+    "tracks": ["Nursing"],
+    "prerequisites": ["BIO101"],
+    "credits": 3
+  },
+  {
+    "code": "NURS102",
+    "name": "Clinical Nursing",
+    "tracks": ["Nursing"],
+    "prerequisites": ["NURS101", "PHYSI101"],
+    "credits": 4
+  },
+  {
+    "code": "NURS201",
+    "name": "Advanced Nursing Practice",
+    "tracks": ["Nursing", "Medicine"],
+    "prerequisites": ["NURS102", "MED102"],
+    "credits": 5
+  }
+]
